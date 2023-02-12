@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "sender": {
+      "shrink" : true,
+      "main": "src/examples/sender.mo",
+      "type": "motoko"
+    },
+    "receiver": {
+      "shrink" : true,
+      "main": "src/examples/receiver.mo",
+      "type": "motoko"
+    },
+    "test": {
+      "shrink" : true,
+      "main": "test/workload.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

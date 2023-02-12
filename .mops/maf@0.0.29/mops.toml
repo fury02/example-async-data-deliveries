@@ -1,0 +1,11 @@
+[package]
+name = "maf"
+version = "0.0.29"
+description = "Motoko async data deliveries"
+repository = "https://github.com/fury02/async-data-deliveries"
+keywords = [ "maf", "async"]
+
+[dependencies]
+base = "0.8.2"
+fuzz = "0.1.0"
+stable-hash-map = "0.0.1"
